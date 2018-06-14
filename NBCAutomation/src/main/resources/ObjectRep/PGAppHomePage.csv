@@ -1,0 +1,31 @@
+ObjectName,ObjectProperties,SearchType
+AppsLink,ul.navigation__list > li:nth-child(7),cssselector
+ProgressBar,//android.widget.ProgressBar,xpath
+nbc_Global_CastButton,"//android.view.View[contains(@resource-id,'media_route_button')]",xpath
+nbc_CastPopUp,"//android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'title')]",xpath
+nbc_HamburgerMenuIcon,"//android.widget.FrameLayout//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+nbc_ShowsMenu,//android.widget.ListView//android.widget.TextView[@text='SHOWS'],xpath
+nbc_APBioShow,//android.widget.TextView[@text='A.P. Bio'],xpath
+nbc_EpisodeVideo,"//android.support.v7.widget.RecyclerView[contains(@resource-id,'showDetailListItemRecyclerView')]/android.widget.FrameLayout[@index='1']",xpath
+Ad,"//android.widget.TextView[contains(@text,'PLAYING AD')]",xpath
+ContinueWatching,"//*[contains(@text,'Continue Watching')]",xpath
+ios_showsbtn,//XCUIElementTypeButton[@name='ShowsButton'],xpath
+ios_APBioShow,//XCUIElementTypeStaticText[@name='A.P. Bio'],xpath
+ios_EpisodeVideo,//XCUIElementTypeStaticText[@label='Episodes']/parent::XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeStaticText,xpath
+ios_VideoPlayArea,//XCUIElementTypeOther[@name='Player-Video-View-PlayerContainer'],xpath
+ios_closevideo,//XCUIElementTypeButton[@name='Player-Header-Button-Close'],xpath
+ios_ContinueWatching,//XCUIElementTypeStaticText[@name='Continue Watching'],xpath
+Allow,//XCUIElementTypeButton[@name='Allow'],xpath
+CastOk,//XCUIElementTypeButton[@name='OK'],xpath
+ios_EpiSodesText,//XCUIElementTypeStaticText[@name='Episodes'],xpath
+ios_othertype,//XCUIElementTypeOther,xpath
+ios_ok,//*[@name='OK'],xpath
+ios_ShowFirstClip,//XCUIElementTypeCollectionView[@name='ShowDetailsEpisodesCollectionView']/XCUIElementTypeCell[2],xpath
+ios_PlayAreatext,//XCUIElementTypeStaticText,xpath
+Cancel,"//android.widget.Button[contains(@id,'cancel')]",xpath
+ios_nbcicon,//XCUIElementTypeButton[@name='Navigation-View-Button-Settings'],xpath
+ios_homeScreencontinuewatch,//XCUIElementTypeStaticText[@label='Continue Watching']/parent::XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeOther[1]/XCUIElementTypeOther//XCUIElementTypeStaticText,xpath
+ios_Favoritebtn,//XCUIElementTypeButton[@name='FavoritesButton'],xpath
+ios_Searchbtn,//XCUIElementTypeButton[@name='SearchButton'],xpath
+ios_Settingbtn,//XCUIElementTypeButton[@name='SettingsButton'],xpath
+ios_Favorite_continuewatchshowlist,"//XCUIElementTypeStaticText[@label='Continue Watching']/parent::XCUIElementTypeCell//XCUIElementTypeStaticText[contains(@name,'S1')]",xpath

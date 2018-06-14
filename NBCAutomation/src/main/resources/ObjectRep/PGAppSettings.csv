@@ -1,0 +1,54 @@
+ObjectName,ObjectProperties,SearchType
+ProgressBar,//android.widget.ProgressBar,xpath
+nbc_Global_CastButton,"//android.view.View[contains(@resource-id,'media_route_button')]",xpath
+nbc_CastPopUp,"//android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'title')]",xpath
+nbc_HamburgerMenuIcon,"//android.widget.FrameLayout//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+nbc_SettingsMenu,//android.widget.ListView//android.widget.TextView[@text='SETTINGS'],xpath
+Setting_Icon,//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[@label='Settings'],xpath
+Tv_provider,//XCUIElementTypeStaticText[@label='Link TV Provider'],xpath
+LINKPROVIDER_Text,//XCUIElementTypeStaticText[@label='LINK PROVIDER'],xpath
+statictext,//XCUIElementTypeOther/XCUIElementTypeStaticText,xpath
+closeIcon,//XCUIElementTypeButton[@label='Close'],xpath
+MPVD_linkproviderlist,//XCUIElementTypeCollectionView/XCUIElementTypeCell,xpath
+ios_Faq,//XCUIElementTypeStaticText[@label='FAQ'],xpath
+ios_back_btn,//XCUIElementTypeButton[@label='Back'],xpath
+ios_Home,//XCUIElementTypeButton[@label='Home Screen'],xpath
+ios_Faq_target,//XCUIElementTypeStaticText[@label='How do I clear my browser cache?'],xpath
+ios_Faq_Firsttext,//*,xpath
+ios_Sign_in,//XCUIElementTypeButton[@label='SIGN IN'],xpath
+ios_Email,//XCUIElementTypeTextField,xpath
+ios_Password,//XCUIElementTypeSecureTextField,xpath
+ios_Show_password,//XCUIElementTypeButton[@name='Show Password'],xpath
+ios_Signbtn,//XCUIElementTypeButton[@name='SIGN IN'],xpath
+ios_SignInPage_Link_Text,//XCUIElementTypeScrollView/XCUIElementTypeTextView,xpath
+ios_ForgetPwd,//XCUIElementTypeTextView[@value='Forgot Password? Reset Password'],xpath
+ios_Sign_UpLink,"//XCUIElementTypeTextView[contains(@value,' Reset')]",xpath
+ios_Sign_UpPage,//XCUIElementTypeStaticText[@name='Sign up with Facebook'],xpath
+settings_List,//android.widget.TextView[@resource-id='com.nbc.nbcapp:id/settings_list_item_tv'],xpath
+nbc_SettingsMenu,//android.widget.ListView//android.widget.TextView[@text='SETTINGS'],xpath
+settings_LinkTV,//android.widget.TextView[@text='LINK YOUR TV PROVIDER'],xpath
+settings_faq,//android.widget.TextView[@text='FAQ'],xpath
+settings_terms,//android.widget.TextView[@text='TERMS OF USE'],xpath
+settings_privacy,//android.widget.TextView[@text='PRIVACY POLICY'],xpath
+settings_contact,//android.widget.TextView[@text='CONTACT US'],xpath
+settings_neilson,//android.widget.TextView[@text='ABOUT NIELSEN MEASUREMENT AND YOUR CHOICES'],xpath
+settings_playback,//android.widget.TextView[@text='PLAYBACK'],xpath
+Settings_Title,//android.widget.TextView[@resource-id='com.nbc.nbcapp:id/toolbar_title'],xpath
+settings_List,//android.widget.TextView[@resource-id='com.nbc.nbcapp:id/settings_list_item_tv'],xpath
+forkscreen,//android.widget.Button[@text='continue'],xpath
+SelectTVText,//XCUIElementTypeStaticText[@name='Select your TV provider below to watch unlimited NBC content.'],xpath
+Usernamepasswordhandytext,"//XCUIElementTypeStaticText[contains(@name,'have your username and password handy')]",xpath
+Dontseeprovidor,"//XCUIElementTypeStaticText[contains(@name,'see your provider')]",xpath
+Seefulllisttext,//XCUIElementTypeButton[@name='See the Full List'],xpath
+FullListBackIcon,//XCUIElementTypeButton[@name='AuthBackIcon'],xpath
+ios_signupbtn,//XCUIElementTypeButton[@label='SIGN UP'],xpath
+TextList,//XCUIElementTypeStaticText,xpath
+TextViewList,//XCUIElementTypeTextView,xpath
+Signup_btn,//android.widget.Button[@text='SIGN UP'],xpath
+Video_Viewing,"//android.widget.LinearLayout//android.widget.TextView[contains(@text,'Privacy Policy')]",xpath
+PrivacyPolicyScreen1,//android.view.View,xpath
+PrivacyPolicyScreen2,//android.widget.ListView,xpath
+BackButton,//android.widget.ImageButton[@content-desc='Navigate up'],xpath
+Privacy_Policy,"//android.widget.LinearLayout//android.widget.TextView[contains(@text,'Privacy Policy')]",xpath
+CloseButton,//android.view.View[@text='Close'],xpath
+Privacy_Policy_Screen,//android.view.View[@text='NBCUniversal'],xpath

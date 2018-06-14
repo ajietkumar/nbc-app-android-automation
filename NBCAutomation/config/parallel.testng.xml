@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel" thread-count="3" parallel="classes">
+<parameter name="environment" value="chrome"/>
+    <test name="Chrome">
+        <parameter name="browser" value="Chrome"/>
+		  <parameter name="version" value="58.0"/>
+		  <parameter name="os" value="Windows"/>
+		  <parameter name="osversion" value="7"/>
+		        <classes>
+            <class name="com.nbcd.Test.TCShowHomePage_043VerifyTwitterTags"/>
+      <class name="com.nbcd.Test.TCShowHomePage_043VerifyFaceBook_SNLTags"/>
+      <class name="com.nbcd.Test.TCShowHomePage_VerifyThe300x250_Display_Ad"/>
+      <class name="com.nbcd.Test.TCShowHomePage_VerifymetaTags"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Filter"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Show_Name"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Dynamic_Lead_Slide"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_About_The_Show"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Latest_Clips_Section"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_full_Episode_section"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Ad_Banner"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_300_250_Display_Ad"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Add_Guest_Schedule"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Description_Canonical"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Responsive_Navigation_Bar"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_About_Section"/>
+      <class name="com.nbcd.Test.TCSchedulePage_VerifySEO"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Watch_Live_Now"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Show_Name_Link"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_visitSiteLink"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_SchedulePage_Timeline"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Section"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Titile"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Header_Navigation"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Append_Url"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Loading_Data_for_Day"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Watch_Live_Show"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_redirect_rules"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_Metadata_Enhancements"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_Episodes_Sorted"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_video_detail_page"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_All_Videos_Landing_Page"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_Meta_tag"/>
+      <class name="com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Character"/>
+      <class name="com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Coach"/>
+      <class name="com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Contestant"/>
+      <class name="com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Character"/>
+      <class name="com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Everyone"/>
+      <class name="com.nbcd.Test.TCPhotoDetailsPage"/>
+      <class name="com.nbcd.Test.TCSearch_VerifyGeneralBehaviour"/>
+      <class name="com.nbcd.Test.TCContactUsPage"/>
+      <class name="com.nbcd.Test.TCSearchPageAbilities"/>
+      <class name="com.nbcd.Test.TCSearch_VerifySearchResults"/>
+      <class name="com.nbcd.Test.TCContactUsCreateRequest"/>
+      <class name="com.nbcd.Test.TCCreateContactUsRequestIhaveFeedback"/>
+      <class name="com.nbcd.Test.TCContactVerifySelectTopicListItems"/>
+      <class name="com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage"/>
+      <class name="com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality"/>
+      <class name="com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback"/>
+      <class name="com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion"/>
+      <class name="com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyAuthFrameDetails"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyMVPDListPicker"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyPostSuccessMsgFadeOut"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyLiveStreamNavigationForLoggedUer"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyNavigationLiveStreamNotAuthenticated"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyFullListViewLayOut"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyFullListViewLayOutVOD"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyOneResultEnterButton"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyInvalidAndValidData"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyGeneralLayout"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyErrorMessageInvalidcode"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyURLPathingRoutingactivation"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyVideosSeasonlistSorting"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifySucessPage"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_BodyAd"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_RespNavBar"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_LoadMore"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_OgTweet"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_titledescan"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_applinks"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_schemaorgs"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_eptitledescan"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_seo"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_ehsf"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_availablenav"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_urlredirect"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_sorryvideo"/>
+      <class name="com.nbcd.Test.TCTVE_Livepagetve"/>
+      <class name="com.nbcd.Test.TCTVE_AuthVod"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_BodyAd"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_BannerAd"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav"/>
+      <class name="com.nbcd.Test.TCBreakingNewsBar"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_titledescan"/>
+        </classes>
+    </test>
+
+    <test name="Firefox">
+         <parameter name="browser" value="Firefox"/>
+  <parameter name="version" value="57.0"/>
+  <parameter name="os" value="Windows"/>
+		  <parameter name="osversion" value="7"/>
+        <classes>
+            <class name="com.nbcd.Test.TCShowHomePage_043VerifyTwitterTags"/>
+      <class name="com.nbcd.Test.TCShowHomePage_043VerifyFaceBook_SNLTags"/>
+      <class name="com.nbcd.Test.TCShowHomePage_VerifyThe300x250_Display_Ad"/>
+      <class name="com.nbcd.Test.TCShowHomePage_VerifymetaTags"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Filter"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Show_Name"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Dynamic_Lead_Slide"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_About_The_Show"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Latest_Clips_Section"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_full_Episode_section"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Ad_Banner"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_300_250_Display_Ad"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Add_Guest_Schedule"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Description_Canonical"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Responsive_Navigation_Bar"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_About_Section"/>
+      <class name="com.nbcd.Test.TCSchedulePage_VerifySEO"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Watch_Live_Now"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Show_Name_Link"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_visitSiteLink"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_SchedulePage_Timeline"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Section"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Titile"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Header_Navigation"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Append_Url"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Loading_Data_for_Day"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Watch_Live_Show"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_redirect_rules"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_Metadata_Enhancements"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_Episodes_Sorted"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_video_detail_page"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_All_Videos_Landing_Page"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_Meta_tag"/>
+      <class name="com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Character"/>
+      <class name="com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Coach"/>
+      <class name="com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Contestant"/>
+      <class name="com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Character"/>
+      <class name="com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Everyone"/>
+      <class name="com.nbcd.Test.TCPhotoDetailsPage"/>
+      <class name="com.nbcd.Test.TCSearch_VerifyGeneralBehaviour"/>
+      <class name="com.nbcd.Test.TCContactUsPage"/>
+      <class name="com.nbcd.Test.TCSearchPageAbilities"/>
+      <class name="com.nbcd.Test.TCSearch_VerifySearchResults"/>
+      <class name="com.nbcd.Test.TCContactUsCreateRequest"/>
+      <class name="com.nbcd.Test.TCCreateContactUsRequestIhaveFeedback"/>
+      <class name="com.nbcd.Test.TCContactVerifySelectTopicListItems"/>
+      <class name="com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage"/>
+      <class name="com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality"/>
+      <class name="com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback"/>
+      <class name="com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion"/>
+      <class name="com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyAuthFrameDetails"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyMVPDListPicker"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyPostSuccessMsgFadeOut"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyLiveStreamNavigationForLoggedUer"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyNavigationLiveStreamNotAuthenticated"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyFullListViewLayOut"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyFullListViewLayOutVOD"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyOneResultEnterButton"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyInvalidAndValidData"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyGeneralLayout"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyErrorMessageInvalidcode"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyURLPathingRoutingactivation"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyVideosSeasonlistSorting"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifySucessPage"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_BodyAd"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_RespNavBar"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_LoadMore"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_OgTweet"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_titledescan"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_applinks"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_schemaorgs"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_eptitledescan"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_seo"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_ehsf"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_availablenav"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_urlredirect"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_sorryvideo"/>
+      <class name="com.nbcd.Test.TCTVE_Livepagetve"/>
+      <class name="com.nbcd.Test.TCTVE_AuthVod"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_BodyAd"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_BannerAd"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav"/>
+      <class name="com.nbcd.Test.TCBreakingNewsBar"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_titledescan"/>
+        </classes>
+    </test>
+
+    <!-- <test name="Safari">
+        <parameter name="config" value="parallel.conf.json"/>
+        <parameter name="environment" value="safari"/>
+        <classes>
+            <class name="ccom.nbcd.Test.TCContactUsPage" />
+        </classes>
+    </test>
+ -->
+ <!--    <test name="IE">
+            <parameter name="browser" value="IE"/>
+  <parameter name="version" value="11.0"/>
+  <parameter name="os" value="Windows"/>
+		  <parameter name="osversion" value="7"/>
+        
+        <classes>
+            <class name="com.nbcd.Test.TCShowHomePage_043VerifyTwitterTags"/>
+      <class name="com.nbcd.Test.TCShowHomePage_043VerifyFaceBook_SNLTags"/>
+      <class name="com.nbcd.Test.TCShowHomePage_VerifyThe300x250_Display_Ad"/>
+      <class name="com.nbcd.Test.TCShowHomePage_VerifymetaTags"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Filter"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Show_Name"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Dynamic_Lead_Slide"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_About_The_Show"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Latest_Clips_Section"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_full_Episode_section"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Ad_Banner"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_300_250_Display_Ad"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Add_Guest_Schedule"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Description_Canonical"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_Responsive_Navigation_Bar"/>
+      <class name="com.nbcd.Test.TCShowHomePage_Verify_About_Section"/>
+      <class name="com.nbcd.Test.TCSchedulePage_VerifySEO"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Watch_Live_Now"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Show_Name_Link"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_visitSiteLink"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_SchedulePage_Timeline"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Section"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Titile"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Header_Navigation"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Append_Url"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Whats_On_Page"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Loading_Data_for_Day"/>
+      <class name="com.nbcd.Test.TCSchedulePage_Verify_Schedule_Page_Watch_Live_Show"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_redirect_rules"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_Metadata_Enhancements"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_Episodes_Sorted"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_video_detail_page"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_All_Videos_Landing_Page"/>
+      <class name="com.nbcd.Test.TCAllVideosPage_Meta_tag"/>
+      <class name="com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Character"/>
+      <class name="com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Coach"/>
+      <class name="com.nbcd.Test.TCCreditLandingPage_Verify_Credit_Role_As_Contestant"/>
+      <class name="com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Character"/>
+      <class name="com.nbcd.Test.TCCreditDetailsPage_Verify_Credit_Role_As_Everyone"/>
+      <class name="com.nbcd.Test.TCPhotoDetailsPage"/>
+      <class name="com.nbcd.Test.TCSearch_VerifyGeneralBehaviour"/>
+      <class name="com.nbcd.Test.TCContactUsPage"/>
+      <class name="com.nbcd.Test.TCSearchPageAbilities"/>
+      <class name="com.nbcd.Test.TCSearch_VerifySearchResults"/>
+      <class name="com.nbcd.Test.TCContactUsCreateRequest"/>
+      <class name="com.nbcd.Test.TCCreateContactUsRequestIhaveFeedback"/>
+      <class name="com.nbcd.Test.TCContactVerifySelectTopicListItems"/>
+      <class name="com.nbcd.Test.TCAppsLandingPage_VerifyAppsLandingPage"/>
+      <class name="com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageFunctionality"/>
+      <class name="com.nbcd.Test.TCPGAllShowsPage_VerifyAllShowPageThrowback"/>
+      <class name="com.nbcd.Test.TCPGLivePage_VerifyLivestreampageSupportedregion"/>
+      <class name="com.nbcd.Test.TCPGLivePage_VerifyAuthSuccessMsgMVPDNBCRESP_1754"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyAuthFrameDetails"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyMVPDListPicker"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyPostSuccessMsgFadeOut"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyExternalPageAuthFlowMVPD"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyLiveStreamNavigationForLoggedUer"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyNavigationLiveStreamNotAuthenticated"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyLiveStreamGeneralLayOut"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyAuthIFrameLayOutDirectTV"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyFullListViewLayOut"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyScrollSizeForVODPage"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyFullListViewLayOutVOD"/>
+      <class name="com.nbcd.Test.TCLivePage_VerifyOneResultEnterButton"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyInvalidAndValidData"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyGeneralLayout"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyErrorMessageInvalidcode"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifyURLPathingRoutingactivation"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyVideoDetailPageOpened"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyVideosSeasonlistSorting"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetatagsmartlink"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifySNLEpisode"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyEarliestairdatetolatestairdate"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_LoadButtonNextSixVideos"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyOGTagForURLVideoDetail"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyAppearingSectionVideo"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetadataENoEpisodeClip"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMetaDataCopyrightInfoDisplay"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifySeasonsSortingforClassicVideos"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyDisplayofShowsinAlphabeticalOrder"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyAuthKeyIcon"/>
+      <class name="com.nbcd.Test.TCActivationPage_VerifySucessPage"/>
+      <class name="com.nbcd.Test.TCShowVideoDetailPage_VerifyMVPDLogo"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_BodyAd"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_RespNavBar"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_LoadMore"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_OgTweet"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_titledescan"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_applinks"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_schemaorgs"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_Seasonimagemeta"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_eptitledescan"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_seo"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_ehsf"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_availablenav"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_urlredirect"/>
+      <class name="com.nbcd.Test.TCShowInnerEpisode_sorryvideo"/>
+      <class name="com.nbcd.Test.TCTVE_Livepagetve"/>
+      <class name="com.nbcd.Test.TCTVE_AuthVod"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_BodyAd"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_BannerAd"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_Global_Footerlinks_Nav"/>
+      <class name="com.nbcd.Test.TCBreakingNewsBar"/>
+      <class name="com.nbcd.Test.TCGlobalHomePage_titledescan"/>
+        </classes>
+    </test>
+     -->
+</suite>

@@ -1,0 +1,21 @@
+ObjectName,ObjectProperties,SearchType
+AppsLink,ul.navigation__list > li:nth-child(7),cssselector
+ProgressBar,//android.widget.ProgressBar,xpath
+nbc_Global_CastButton,"//android.view.View[contains(@resource-id,'media_route_button')]",xpath
+nbc_CastPopUp,"//android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'title')]",xpath
+nbc_HamburgerMenuIcon,"//android.widget.FrameLayout//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+nbc_ShowsMenu,//android.widget.ListView//android.widget.TextView[@text='SHOWS'],xpath
+nbc_APBioShow,//android.widget.TextView[@text='American Ninja Warrior'],xpath
+nbc_EpisodeVideo,"//android.support.v7.widget.RecyclerView[contains(@resource-id,'showDetailListItemRecyclerView')]/android.widget.FrameLayout[@index='0']",xpath
+Ad,"//android.widget.TextView[contains(@text,'PLAYING AD')]",xpath
+SeekBar,"//android.widget.SeekBar[contains(@resource-id,'com.nbc.nbcapp:id/seekBar')]/android.widget.FrameLayout[@index='5']",xpath
+GotoShowButton,"//android.widget.Button[contains(@text,'GO TO SHOW PAGE')]",xpath
+vodtap,//android.widget.RelativeLayout,xpath
+playPauseToggle,"//android.widget.ToggleButton[contains(@resource-id,'com.nbc.nbcapp:id/togglePlay')]",xpath
+nbc_FavoritesSection,//android.widget.TextView[@text='Favorites']/parent::android.widget.LinearLayout,xpath
+nbc_favoritesSection_Shows,//android.widget.TextView[@text='Favorites']/parent::android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.TextView,xpath
+Show_HeartIcon,"//android.widget.ImageView[contains(@resource-id,'show_detail_fav_button')]",xpath
+Show_name,"//android.widget.TextView[contains(@resource-id,'show_detail_show_title')]",xpath
+nbc_HomeMenu,//android.widget.ListView//android.widget.TextView[@text='HOME'],xpath
+nb_Fav_popup,"//android.widget.Button[contains(@text,'sign up')]",xpath
+nbc_access_clips_dateList,"//android.support.v7.widget.RecyclerView[contains(@resource-id,'showDetailListItemRecyclerView')]//android.widget.TextView[contains(@resource-id,'show_detail_episode_info')]",xpath

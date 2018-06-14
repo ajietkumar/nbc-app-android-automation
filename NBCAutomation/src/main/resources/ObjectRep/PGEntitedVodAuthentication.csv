@@ -1,0 +1,18 @@
+ObjectName,ObjectProperties,SearchType
+AppsLink,ul.navigation__list > li:nth-child(7),cssselector
+ProgressBar,//android.widget.ProgressBar,xpath
+nbc_Global_CastButton,"//android.view.View[contains(@resource-id,'media_route_button')]",xpath
+nbc_CastPopUp,"//android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'title')]",xpath
+nbc_HamburgerMenuIcon,"//android.widget.FrameLayout//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+nbc_ShowsMenu,//android.widget.ListView//android.widget.TextView[@text='SHOWS'],xpath
+nbc_APBioShow,//android.widget.TextView[@text='American Ninja Warrior'],xpath
+nbc_EpisodeVideo,"//android.widget.FrameLayout[contains(@resource-id,'com.nbc.nbcapp:id/include_show_detail_episode_layout']",xpath
+nbc_SettingsMenu,//android.widget.ListView//android.widget.TextView[@text='SETTINGS'],xpath
+LinkTvProvider,//android.widget.TextView[@text='LINK YOUR TV PROVIDER'],xpath
+Selecting Tv provider,//android.widget.FrameLayout[@index='7'],xpath
+Username_Optimum,//android.widget.EditText[@resource-id='IDToken1'],xpath
+Password_Optimum,//android.widget.EditText[@resource-id='IDToken2'],xpath
+Signin_Btn,//android.widget.Image[@resource-id='signin_button'],xpath
+skip_btn_bridgescreen,//android.widget.TextView[@text='skip'],xpath
+Unlink_Tvprovider,//android.widget.TextView[@text='UNLINK YOUR TV PROVIDER'],xpath
+Tvproviderlogo,//android.widget.ImageView[@resource-id='com.nbc.nbcapp:id/providerLogo'],xpath

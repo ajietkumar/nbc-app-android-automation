@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [NBCAutomation]" parallel="classes">
+  <test name="NBCAutomation(failed)" parallel="classes">
+    <parameter name="environment" value="PHYSICAL_APP"/>
+    <parameter name="os" value="LGH630Dc1a1d868"/>
+    <parameter name="browser" value="TRUE"/>
+    <parameter name="osversion" value="6.0.1"/>
+    <parameter name="version" value="No"/>
+    <classes>
+      <class name="com.nbcd.Test.TCAndroid_Vod_VerifylistofshowsmetadataEpisodecollectionshelf_NAF3374">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="getBrowserType"/>
+          <include name="android_VerifylistofshowsmetadataEpisodecollectionshelf_NAF3374"/>
+          <include name="endReport"/>
+          <include name="getBrowser"/>
+          <include name="closeAllDriver"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.nbcd.Test.TCAndroid_Vod_VerifylistofshowsmetadataEpisodecollectionshelf_NAF3374 -->
+    </classes>
+  </test> <!-- NBCAutomation(failed) -->
+</suite> <!-- Failed suite [NBCAutomation] -->

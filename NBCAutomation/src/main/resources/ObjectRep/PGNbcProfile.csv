@@ -1,0 +1,100 @@
+ObjectName,ObjectProperties,SearchType
+ProgressBar,//android.widget.ProgressBar,xpath
+nbc_Global_CastButton,"//android.view.View[contains(@resource-id,'media_route_button')]",xpath
+nbc_CastPopUp,"//android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'title')]",xpath
+nbc_HamburgerMenuIcon,"//android.widget.FrameLayout//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+nbc_SettingsMenu,//android.widget.ListView//android.widget.TextView[@text='SETTINGS'],xpath
+Setting_Icon,//XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeButton[@label='Settings'],xpath
+Tv_provider,//XCUIElementTypeStaticText[@label='Link TV Provider'],xpath
+LINKPROVIDER_Text,//XCUIElementTypeStaticText[@label='LINK PROVIDER'],xpath
+statictext,//XCUIElementTypeOther/XCUIElementTypeStaticText,xpath
+closeIcon,//XCUIElementTypeButton[@label='Close'],xpath
+MPVD_linkproviderlist,//XCUIElementTypeCollectionView/XCUIElementTypeCell,xpath
+ios_Faq,//XCUIElementTypeStaticText[@label='FAQ'],xpath
+ios_back_btn,//XCUIElementTypeButton[@label='Back'],xpath
+ios_Home,//XCUIElementTypeButton[@label='Home Screen'],xpath
+ios_Faq_target,//XCUIElementTypeStaticText[@label='How do I clear my browser cache?'],xpath
+ios_Faq_Firsttext,//*,xpath
+ios_Sign_in,//XCUIElementTypeButton[@label='SIGN IN'],xpath
+ios_Email,//XCUIElementTypeTextField,xpath
+ios_Password,//XCUIElementTypeSecureTextField,xpath
+ios_Show_password,//XCUIElementTypeButton[@name='Show Password'],xpath
+ios_Signbtn,//XCUIElementTypeButton[@name='SIGN IN'],xpath
+ios_SignInPage_Link_Text,//XCUIElementTypeScrollView/XCUIElementTypeTextView,xpath
+ios_ForgetPwd,//XCUIElementTypeTextView[@value='Forgot Password? Reset Password'],xpath
+ios_Sign_UpLink,"//XCUIElementTypeTextView[contains(@value,' Sign Up')]",xpath
+ios_Sign_UpPage,//XCUIElementTypeStaticText[@name='Sign up with Facebook'],xpath
+settings_List,//android.widget.TextView[@resource-id='com.nbc.nbcapp:id/settings_list_item_tv'],xpath
+nbc_SettingsMenu,//android.widget.ListView//android.widget.TextView[@text='SETTINGS'],xpath
+settings_LinkTV,//android.widget.TextView[@text='LINK YOUR TV PROVIDER'],xpath
+settings_faq,//android.widget.TextView[@text='FAQ'],xpath
+settings_terms,//android.widget.TextView[@text='TERMS OF USE'],xpath
+settings_privacy,//android.widget.TextView[@text='PRIVACY POLICY'],xpath
+settings_contact,//android.widget.TextView[@text='CONTACT US'],xpath
+settings_neilson,//android.widget.TextView[@text='ABOUT NIELSEN MEASUREMENT AND YOUR CHOICES'],xpath
+settings_playback,//android.widget.TextView[@text='PLAYBACK'],xpath
+Settings_Title,//android.widget.TextView[@resource-id='com.nbc.nbcapp:id/toolbar_title'],xpath
+settings_List,//android.widget.TextView[@resource-id='com.nbc.nbcapp:id/settings_list_item_tv'],xpath
+forkscreen,//android.widget.Button[@text='continue'],xpath
+Signup_btn,//android.widget.Button[@text='SIGN UP'],xpath
+Email_textbox,//android.widget.EditText[@resource-id='com.nbc.nbcapp:id/identity_registration_email_input'],xpath
+paswrd_textbox,"//android.widget.EditText[contains(@resource-id,'identity_registration_password_input')]",xpath
+checkbox,//android.widget.CheckBox[@resource-id='com.nbc.nbcapp:id/identity_registration_sign_up'],xpath
+Signup_btn_regpage,"//android.widget.Button[contains(@resource-id,'button_sign_up') and @enabled='true']",xpath
+success,"//android.widget.TextView[contains(@text,'Success')]",xpath
+valueprops_screen,//android.widget.TextView,xpath
+startwatching,//android.widget.Button[@text='start watching'],xpath
+Signout_Settings,"//android.widget.TextView[contains(@text,'SIGN OUT')]",xpath
+SignIn,//android.widget.Button[@text='SIGN IN'],xpath
+bridge_screen,"//android.widget.TextView[contains(@text,'Do you want to link your TV Provider')]",xpath
+skip,//android.widget.TextView[@text='skip'],xpath
+Signup_btn,//android.widget.Button[@text='SIGN UP'],xpath
+SignIn,//android.widget.Button[@text='SIGN IN'],xpath
+LINK_tv_provider_after_signUp,//android.widget.TextView[@text='Link provider'],xpath
+Vod_Player,//android.widget.FrameLayout,xpath
+toggle,"//android.widget.ToggleButton[contains(@resource-id,'togglePlay')]",xpath
+stationLogo,"//android.widget.ImageView[contains(@resource-id,'stationLogo')]",xpath
+Tvproviderlogo,"//android.widget.ImageView[contains(@resource-id,'providerLogo')]",xpath
+View_Schedule,//android.widget.Button[@text='VIEW SCHEDULE'],xpath
+CCtoggle,"//android.widget.ToggleButton[contains(@resource-id,'toggleCaption')]",xpath
+closedcaption,"//android.widget.TextView[contains(@text,'CLOSED CAPTIONING')]",xpath
+close,//android.widget.Button[@index='9'],xpath
+InvalidPaswrd_error,//android.widget.TextView[@text='Please check that your password is correct'],xpath
+Sign_up,//android.widget.Button[@text='SIGN UP'],xpath
+Signup_Facebook,"//android.widget.LinearLayout/android.widget.TextView[contains(@resource-id,'identity_register_sign_up_button')]",xpath
+Facbook_User,"//android.widget.EditText[contains(@resource-id,'m_login_email')]",xpath
+Facbook_Pw,"//android.widget.EditText[contains(@resource-id,'m_login_password')]",xpath
+Facebook_btn,//android.view.View/android.widget.Button,xpath
+Facebook_Edit_this,//android.view.View[@text='Edit this'],xpath
+Continue_as_Sample,"//android.widget.Button[contains(@text,'Continue')] ",xpath
+App_Signup,//android.widget.TextView[@text='Sign Up'],xpath
+Nbc_Checkbox,//android.widget.CheckBox,xpath
+Continue_btn,//android.widget.Button[@text='continue' and @enabled='true'],xpath
+TV_PROVIDER,"//android.widget.TextView[contains(@text,'PROVIDER')]",xpath
+optimum,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout/android.widget.ImageView,xpath
+Optimum_ID,//android.widget.EditText[@text='Optimum ID'],xpath
+Optimum_PW,//android.widget.EditText[@text='Password'],xpath
+Optimum_SignIn,//android.widget.Image[@text='sign-in'],xpath
+Yes_btn,"//android.widget.Button[contains(@text,'yes')]",xpath
+Nbc_UserId,"//android.widget.EditText[contains(@resource-id,'identity_registration_email_input')]",xpath
+Nbc_Pwd,"//android.widget.EditText[contains(@resource-id,'identity_registration_password_input')]",xpath
+Nbc_CheckBox,"//android.widget.CheckBox[contains(@resource-id,'identity_registration_sign_up')]",xpath
+Nbc_sign_up,"//android.widget.Button[contains(@resource-id,'button_sign_up') and @enabled='true']",xpath
+Nbc_SIGN_OUT,"//android.widget.TextView[contains(@text,'SIGN OUT OF NBC PROFILE')]",xpath
+skip_btn,"//android.widget.Button[contains(@text,'skip')]",xpath
+NBC_Bridge_Screen,//android.widget.TextView[@text='TV Provider Linked!'],xpath
+SignIn_Link,//android.widget.TextView[@text='Sign In'],xpath
+SignIn_with_Email_Title,//android.widget.TextView[@text='Sign in with Email'],xpath
+SignIn_with_FB_Title,//android.widget.TextView[@text='Sign in with Facebook'],xpath
+Reset_link,//android.widget.TextView[@text='Reset here'],xpath
+Show_passwrd,"//android.widget.ImageButton[contains(@resource-id,'text_input_password_toggle')]",xpath
+need_new_password,"//android.view.View/android.view.View/android.view.View[contains(@text,'Need a new password?')]",xpath
+Email_Address,"//android.view.View/android.view.View/android.widget.EditText[contains(@text,'Email Address')]",xpath
+CONTINUE_btn,"//android.view.View/android.widget.Button[contains(@text,'CONTINUE')]",xpath
+SignUp_Link,//android.widget.TextView[@text='Sign up'],xpath
+registration_screen,"//android.widget.LinearLayout/android.widget.TextView[contains(@resource-id,'toolbar_title']",xpath
+Epsde,//android.widget.TextView[@index='0'],xpath
+loadng,//android.widget.TextView[@text='LOADING'],xpath
+vodplaer,//android.widget.RelativeLayout,xpath
+ContinueWatching_ShowTiteName,"//android.widget.TextView[@text='Continue Watching']/following-sibling::android.support.v7.widget.RecyclerView[contains(@resource-id,'homeListItemRecyclerView')]/android.widget.FrameLayout//android.widget.TextView",xpath
+Scrolldwn,//android.widget.TextView[@text='Continue Watching']/parent::android.widget.LinearLayout/following-sibling::android.widget.LinearLayout/android.widget.TextView,xpath

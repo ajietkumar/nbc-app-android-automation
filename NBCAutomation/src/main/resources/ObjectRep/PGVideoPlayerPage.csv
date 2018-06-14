@@ -1,0 +1,78 @@
+ObjectName,ObjectProperties,SearchType
+AppsLink,ul.navigation__list > li:nth-child(7),cssselector
+ProgressBar,//android.widget.ProgressBar,xpath
+nbc_Global_CastButton,"//android.view.View[contains(@resource-id,'media_route_button')]",xpath
+nbc_CastPopUp,"//android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'title')]",xpath
+nbc_HamburgerMenuIcon,"//android.widget.FrameLayout//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+nbc_ShowsMenu,//android.widget.ListView//android.widget.TextView[@text='SHOWS'],xpath
+nbc_APBioShow,//android.widget.TextView[@text='American Ninja Warrior'],xpath
+nbc_EpisodeVideo,"//android.support.v7.widget.RecyclerView[contains(@resource-id,'showDetailListItemRecyclerView')]/android.widget.FrameLayout[@index='0']",xpath
+Ad,"//android.widget.TextView[contains(@text,'PLAYING AD')]",xpath
+SeekBar,"//android.widget.SeekBar[contains(@resource-id,'com.nbc.nbcapp:id/seekBar')]/android.widget.FrameLayout[@index='5']",xpath
+GotoShowButton,"//android.widget.Button[contains(@text,'GO TO SHOW PAGE')]",xpath
+vodtap,//android.widget.RelativeLayout,xpath
+playPauseToggle,"//android.widget.ToggleButton[contains(@resource-id,'com.nbc.nbcapp:id/togglePlay')]",xpath
+nbc_FavoritesSection,//android.widget.TextView[@text='Favorites']/parent::android.widget.LinearLayout,xpath
+nbc_favoritesSection_Shows,//android.widget.TextView[@text='Favorites']/parent::android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.TextView,xpath
+Show_HeartIcon,"//android.widget.ImageView[contains(@resource-id,'show_detail_fav_button')]",xpath
+Show_name,"//android.widget.TextView[contains(@resource-id,'show_detail_show_title')]",xpath
+nbc_HomeMenu,//android.widget.ListView//android.widget.TextView[@text='HOME'],xpath
+nb_Fav_popup,//android.widget.TextView[@text='American Ninja Warrior'],xpath
+Vvo_loadSpinner,//android.widget.TextView[@text='LOADING'],xpath
+vod_Frwd,//android.widget.Button,xpath
+Timer,"//android.widget.TextView[contains(@resource-id,'timeText')]",xpath
+vod_player,//android.widget.ProgressBar[@resource-id='com.nbc.nbcapp:id/circle_progress_bar'],xpath
+Tablet_MoreEpisodesTray,"//android.widget.TextView[contains(@text,'MORE EPISODES')]",xpath
+Tablet_VideoDetailSection,"//android.support.v7.widget.RecyclerView[contains(@resource-id,'episodesRecyclerView')]",xpath
+Tablet_EpisodeName_VodDetailsPage,"//android.widget.LinearLayout[contains(@resource-id,'headerViewLayout')]/android.widget.LinearLayout/android.widget.TextView[@index='1']",xpath
+Tablet_VideoDetailSection_ShowName,"//android.widget.LinearLayout[contains(@resource-id,'headerViewLayout')]/android.widget.LinearLayout/android.widget.TextView[@index='0']",xpath
+Tablet_NOWPLAYING_EpisodeName,"//android.widget.TextView[contains(@Text,'NOW PLAYING')]/parent::android.widget.RelativeLayout[@index='5']/android.widget.LinearLayout/android.widget.TextView[@index='1']",xpah
+Tablet_NOWPLAYING,"//android.widget.FrameLayout/android.widget.TextView[contains(@Text,'NOW PLAYING')]",xpath
+Tablet_VideoDetailSection_MetaData,"//android.widget.LinearLayout[contains(@resource-id,'headerViewLayout')]/android.widget.LinearLayout/android.widget.TextView[@index='2']",xpath
+Tablet_VideoDetailSection_AboutShowSummary,"//android.widget.LinearLayout[contains(@resource-id,'headerViewLayout')]/android.widget.LinearLayout/android.widget.TextView[@index='3']",xpath
+Tablet_VideoDetailSection_GOTOSHOWPAGE_Button,"//android.widget.LinearLayout[contains(@resource-id,'headerViewLayout')]/android.widget.LinearLayout/android.widget.Button",xpath
+Menu,//android.widget.ImageButton[@content-desc='Navigate up'],xpath
+MenuList,"//android.widget.ListView[contains(@resource-id,'navigationView')]/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.ImageView""",xpath
+Entitled_Video,"//*[contains(@resource-id,'include_show_detail_episode_layout')]/android.widget.RelativeLayout/android.widget.FrameLayout""",xpath
+Entitled_Video_title,"//*[contains(@resource-id,'include_show_detail_episode_layout')]//*[contains(@resource-id,'show_detail_episode_title')]",xpath
+search_field,"//android.widget.EditText[contains(@resource-id,'search_field')]",xpath
+Auth_Key,"//*[contains(@resource-id,'show_lockup_container')]/*[contains(@resource-id,'image')]/following-sibling::android.widget.ImageView",xpath
+TV_PROVIDER,"//android.widget.TextView[contains(@text,'LINK YOUR TV PROVIDER')]",xpath
+Bridge_screen,"//android.support.v7.widget.RecyclerView[contains(@resource-id,'providersRecyclerView')]/android.widget.FrameLayout/android.widget.ImageView",xpath
+UserName,"//android.view.View/android.widget.EditText[contains(@resource-id,'IDToken1')]",xpath
+Password,"//android.view.View/android.widget.EditText[contains(@resource-id,'IDToken2')]",xpath
+SingIn_btn,//android.widget.Image[@text='sign-in'],xpath
+NBC_Bridge_Screen,//android.widget.TextView[@text='TV Provider Linked!'],xpath
+skip_btn,"//android.widget.TextView[contains(@text,'skip')]",xpath
+UNLINK_TV_PROVIDER,"//android.widget.TextView[contains(@text,'UNLINK YOUR TV PROVIDER')]",xpath
+Entitled_Video,"//android.widget.FrameLayout[contains(@resource-id,'include_show_detail_episode_layout')]/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ImageView",xpath
+search_field,"//android.widget.EditText[contains(@resource-id,'search_field')]",xpath
+Auth_Key,"//android.view.ViewGroup[contains(@resource-id,'show_lockup_container')]/android.widget.ImageView",xpath
+tap,//android.widget.RelativeLayout,xpath
+playPauseToggle,"//android.widget.ToggleButton[contains(@resource-id,'toggle')]",xpath
+seekBar,"//android.widget.RelativeLayout[contains(@resource-id,'bottom_controls')]/android.widget.SeekBar[contains(@resource-id,'seekBar')]",xpath
+GotoSHowButton,"//android.widget.RelativeLayout[contains(@resource-id,'recommendedShowContainer')]/android.widget.Button",xpath
+Upnext,"//android.widget.TextView[contains(@resource-id,'up_next_text')]",xpath
+ShowTitle,"//android.widget.TextView[contains(@resource-id,'show_title')]",xpath
+seconds,"//android.widget.TextView[contains(@text,'SECONDS')]",xpath
+EpisodeTirle,"//android.widget.TextView[@text='Episodes']/following-sibling::android.support.v7.widget.RecyclerView/android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'show_detail_episode_title')]",xpath
+showContainerImage,"//android.widget.FrameLayout/android.widget.ImageView[contains(@resource-id,'showImage')]",xpath
+Recommended_for_You,"//android.widget.RelativeLayout[contains(@resource-id,'recommendedShowContainer')]/android.widget.TextView[contains(@resource-id,'recommend_text')]",xpath
+show_name,"//android.widget.RelativeLayout[contains(@resource-id,'recommendedShowContainer')]/android.widget.TextView[contains(@resource-id,'show_name')]",xpath
+show_description,"//android.widget.RelativeLayout[contains(@resource-id,'recommendedShowContainer')]/android.widget.TextView[contains(@resource-id,'show_description')]')]",xpath
+clip,"//android.widget.FrameLayout[contains(@resource-id,'include_show_detail_episode_layout')]",xpath
+JustUnlockedEpisodedLIst,"//android.widget.TextView[@text='Just Unlocked']/following-sibling::android.support.v7.widget.RecyclerView[contains(@resource-id,'homeListItemRecyclerView')]/android.widget.FrameLayout",xpath
+NextSectionofJustUnlocked,//android.widget.TextView[@text='Just Unlocked'],xpath
+VOD_Close,"//android.widget.FrameLayout[contains(@resource-id,'video_player_controls')]/android.widget.LinearLayout/android.widget.Button",xpath
+JustUnlockedEpisodedLIst_Title,"//android.widget.TextView[@text='Just Unlocked']/following-sibling::android.support.v7.widget.RecyclerView[contains(@resource-id,'homeListItemRecyclerView')]/android.widget.FrameLayout//android.widget.TextView[contains(@text,' | ')]",xpath
+Episode_Title,"//android.widget.FrameLayout/android.support.v7.widget.RecyclerView[contains(@resource-id,'showDetailListItemRecyclerView')]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView [contains(@resource-id,'show_detail_episode_title')]",xpath
+Episode,"//android.widget.FrameLayout/android.support.v7.widget.RecyclerView[contains(@resource-id,'showDetailListItemRecyclerView')]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/",xpath
+PlayNow,"//android.widget.Button[contains(@text,'PLAY NOW')]",xpath
+show_description,"//android.widget.TextView[contains(@resource-id,'up_next_text')]/parent::android.widget.RelativeLayout/android.widget.TextView",xpath
+Latest_Episodes,"//android.support.v7.widget.RecyclerView[contains(@resource-id,'home_categories_rv')]/android.widget.LinearLayout[@index='2']/android.widget.TextView[contains(@text,'Latest Episodes')]",xpath
+just_Unlocked_Episode,"//android.widget.TextView[@text='Just Unlocked']/following-sibling::android.support.v7.widget.RecyclerView[contains(@resource-id,'homeListItemRecyclerView')]/android.widget.FrameLayout",xpath
+Start_time,"//android.widget.FrameLayout[contains(@resource-id,'containerVideoPlayerControls')]/android.widget.FrameLayout[contains(@resource-id,'video_player_controls')]/android.widget.FrameLayout/android.widget.RelativeLayout[contains(@resource-id,'bottom_controls')]/android.widget.TextView[contains(@resource-id,'timeText')]",xpath
+continueWatching_Vod,"//android.support.v7.widget.RecyclerView[contains(@resource-id,'homeListItemRecyclerView')]/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[contains(@resource-id,'imageContainer')]/android.widget.ImageView[contains(@resource-id,'image')]",xpath
+AuthKeyVideosList,"//android.widget.TextView[@text='Latest Episodes']/parent::android.widget.LinearLayout/android.support.v7.widget.RecyclerView[contains(@resource-id,'homeListItemRecyclerView')]/android.widget.FrameLayout//android.widget.RelativeLayout[contains(@resource-id,'imageContainer')]/following-sibling::android.widget.FrameLayout[@index='1']",xpath
+fork_Screen,"//android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[contains(@resource-id,'fork_textView')]",xpath
+Latest Episodes_nextSection,//android.widget.TextView[@text='Latest Episodes']/parent::android.widget.LinearLayout/following-sibling::android.widget.LinearLayout/android.widget.TextView,xpath

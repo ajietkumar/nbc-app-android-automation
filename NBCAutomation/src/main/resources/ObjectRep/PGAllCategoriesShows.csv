@@ -1,0 +1,12 @@
+ObjectName,ObjectProperties,SearchType
+AppsLink,ul.navigation__list > li:nth-child(7),cssselector
+ProgressBar,//android.widget.ProgressBar,xpath
+nbc_Global_CastButton,"//android.view.View[contains(@resource-id,'media_route_button')]",xpath
+nbc_CastPopUp,"//android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'title')]",xpath
+nbc_HamburgerMenuIcon,"//android.widget.FrameLayout//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+nbc_ShowsMenu,//android.widget.ListView//android.widget.TextView[@text='SHOWS'],xpath
+Shows_Shows,//android.widget.TextView[@text='SHOWS'],xpath
+Current_Shows,//android.widget.TextView[@text='current'],xpath
+Throwback_Shows,//android.widget.TextView[@text='throwback'],xpath
+All_Shows,//android.widget.TextView[@text='all'],xpath
+showtitle,"//android.widget.TextView[contains(@resource-id,'com.nbc.nbcapp:id/show_title')]",xpath

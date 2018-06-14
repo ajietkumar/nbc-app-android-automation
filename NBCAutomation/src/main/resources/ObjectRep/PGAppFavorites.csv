@@ -1,0 +1,23 @@
+ObjectName,ObjectProperties,SearchType
+ios_Favorites_icon,//XCUIElementTypeButton[@label='Favorites'],xpath
+StaticText,//XCUIElementTypeStaticText,xpath
+ios_Editbtn,//*[@label='Edit'],xpath
+ios_X_icon,//XCUIElementTypeStaticText[@name='Favorites-ContinueWatchingSection-Label-Title']/preceding-sibling::XCUIElementTypeButton,xpath
+ios_Fav_btn,//XCUIElementTypeButton[@label='FavoritesPlusIcon'],xpath
+ios_X_btn,//XCUIElementTypeButton[@label='Button'],xpath
+ios_Fav_show,//XCUIElementTypeStaticText[@name='Favorites-FavoritesSection-Label-Title'],xpath
+ios_Source,//XCUIElementTypeTable/XCUIElementTypeCell,xpath
+ios_Desc,//XCUIElementTypeStaticText[@name='Watch More Videos'],xpath
+ios_Show_name,//XCUIElementTypeStaticText,xpath
+ios_Sign_Up,//XCUIElementTypeButton[@name='SIGN UP'],xpath
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,,
+,"//XCUIElementTypeTable/XCUIElementTypeCell/XCUIElementTypeStaticText[@name='Favorites-FavoritesSection-Label-Title']/following-sibling::XCUIElementTypeStaticText[contains(@name,'S')]",

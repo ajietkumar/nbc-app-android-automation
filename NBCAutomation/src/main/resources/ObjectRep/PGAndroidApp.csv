@@ -1,0 +1,45 @@
+ObjectName,ObjectProperties,SearchType
+Android_NBCIcon,"//android.widget.FrameLayout//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+android_Menu,"//android.widget.LinearLayout[contains(@resource-id,'slide_view') and @index='1']/android.widget.ListView[contains(@resource-id,'navigationView')]/android.widget.RelativeLayout[contains(@resource-id,'navigation_menu_item')]/android.widget.TextView[contains(@resource-id,'menu_name')]",xpath
+Timer,"//android.widget.TextView[contains(@resource-id,'timeText')]",xpath
+Menu,//android.widget.ImageButton[@content-desc='Navigate up'],xpath
+Lsit,//android.widget.ListView/android.widget.RelativeLayout/android.widget.FrameLayout,xpath
+Signup_btn,//android.widget.Button[@text='SIGN UP'],xpath
+Email_textbox,//android.widget.EditText[@resource-id='com.nbc.nbcapp:id/identity_registration_email_input'],xpath
+paswrd_textbox,"//android.widget.EditText[contains(@resource-id,'identity_registration_password_input')]",xpath
+checkbox,//android.widget.CheckBox[@resource-id='com.nbc.nbcapp:id/identity_registration_sign_up'],xpath
+Signup_btn_regpage,"//android.widget.Button[contains(@resource-id,'button_sign_up') and @enabled='true']",xpath
+success,"//android.widget.TextView[contains(@text,'Success')]",xpath
+valueprops_screen,//android.widget.TextView,xpath
+startwatching,//android.widget.Button[@text='start watching'],xpath
+Signout_Settings,"//android.widget.TextView[contains(@text,'SIGN OUT')]",xpath
+SignIn,//android.widget.Button[@text='SIGN IN'],xpath
+bridge_screen,"//android.widget.TextView[contains(@text,'Do you want to link your TV Provider')]",xpath
+skip,//android.widget.TextView[@text='skip'],xpath
+Signout_pop_Yes,//android.widget.Button[@text='Yes'],xpath
+Unlink_Settings,"//android.widget.TextView[contains(@text,'UNLINK')]",xpath
+Unlink_Tv_popup,//android.widget.Button[@text='YES'],xpath
+xfinity,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout[@index='0'],xpath
+DirectTV,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout[@index='1'],xpath
+dish,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout[@index='2'],xpath
+Verizon,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout[@index='3'],xpath
+At&T,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout[@index='4'],xpath
+Cox,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout[@index='5'],xpath
+Spectrum,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout[@index='6'],xpath
+Optimum,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout[@index='7'],xpath
+suddenlink,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout[@index='8'],xpath
+Optimum_userID,//android.widget.EditText[@text='Optimum ID'],xpath
+Optimum_passwrd,//android.widget.EditText[@text='Password'],xpath
+Email_Error,//*[@text='We are unable to verify your email address. Please double check it or try another.'],xpath
+Email_Already Used Error,//android.widget.TextView[@index='0'],xpath
+Email_Error,//*[@text='Please enter a valid email address. Please double check it or try another.'],xpath
+AddToFavoritesButton,"//android.widget.ImageView[contains(@resource-id,'show_detail_fav_button')]",xpath
+Show_name,"//android.widget.TextView[contains(@resource-id,'show_detail_show_title')]",xpath
+SmartTile,"//android.widget.ImageView[contains(@resource-id,'item_show_detail_imageview')]",xpath
+Video_Player,"//android.widget.FrameLayout[contains(@resource-id,'videoView')]",xpath
+SmartTile_EpisodeName,"//android.widget.FrameLayout[@index='2']/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout[@index='2']/android.widget.LinearLayout/android.widget.TextView[contains(@resource-id,'show_detail_episode_title')]",xpath
+VODPlayerTablet_EpisodeName,"//android.widget.LinearLayout[contains(@resource-id,'headerViewLayout')]/android.widget.LinearLayout/android.widget.TextView[@index='1']",xpath
+Metadata_Episode_Date,"//android.widget.LinearLayout[contains(@resource-id,'smart_tile_container')]/android.widget.FrameLayout/android.widget.FrameLayout[contains(@resource-id,'include_show_detail_episode_layout')]/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.TextView",xpath
+Metadata_episode_title,"//android.widget.TextView[contains(@resource-id,'show_detail_episode_title')]",xpath
+ContinueWatchign,//android.support.v7.widget.RecyclerView/android.widget.TextView[@text='Continue Watching'],xpath
+Episode_Homepage_continueWatchignShelf,//android.support.v7.widget.RecyclerView/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.TextView,xpath

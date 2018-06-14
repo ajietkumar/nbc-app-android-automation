@@ -1,0 +1,68 @@
+ObjectName,ObjectProperties,SearchType
+ios_ok,//*[@name='OK'],xpath
+Allow,//XCUIElementTypeButton[@name='Allow'],xpath
+CastOk,//XCUIElementTypeButton[@name='OK'],xpath
+ios_showsbtn,//XCUIElementTypeButton[@name='ShowsButton'],xpath
+ios_ShowsNameTextList,//XCUIElementTypeCollectionView[@name='ShowListingThumbnailCollectionView']/XCUIElementTypeCell//XCUIElementTypeStaticText,xpath
+Android_NBCIcon,"//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+Android_Shows,//android.widget.TextView[@text='SHOWS'],xpath
+Android_ShowsAllBtn,//android.widget.TextView[@text='all'],xpath
+Android_ShowsNameTextList,//android.support.v4.view.ViewPager/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.widget.FrameLayout//android.widget.TextView,xpath
+Android_Current_Shows,//android.widget.TextView[@text='CURRENT'],xpath
+Android_Throwback_Shows,//android.widget.TextView[@text='THROWBACK'],xpath
+Android_All_Shows,//android.widget.TextView[@text='ALL'],xpath
+Android_A.P.BioShow,//android.widget.TextView[@text='A.P. Bio'],xpath
+Android_A.P.BioShow_Showhomepage,//android.widget.TextView[@text='A.P. Bio'],xpath
+Android_SHP_BackButton,//android.widget.ImageButton[@content-desc='Navigate up'],xpath
+Android_ProgressBar,//android.widget.ProgressBar,xpath
+Android_CastIcon,"//android.widget.RelativeLayout[contains(@resource-id,'logos_layout')]",xpath
+Andriod_Global_CastButton,"//android.view.View[contains(@resource-id,'media_route_button')]",xpath
+Android_CastPopUp,"//android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'title')]",xpath
+Android_Shows,//android.widget.TextView[@text='HOME'],xpath
+Android_ShowPage_Episodes,"//android.widget.ViewGroup/android.support.v7.widget.RecyclerView//android.support.v7.widget.RecylcerView//android.widget.TextView[contains(@resource-id,'show_detail_episode_title)]",xpath
+ios_PlayAreatext,//XCUIElementTypeStaticText,xpath
+ios_PlayPause,//XCUIElementTypeButton[@name='Player-Video-Button-PlayPause'],xpath
+ios_closevideo,//XCUIElementTypeButton[@name='Player-Header-Button-Close'],xpath
+ios_dimview,//XCUIElementTypeOther[@name='Player-Video-View-DimView'],xpath
+ios_replay,//XCUIElementTypeButton[@label='ReplayIconSmall'],xpath
+ios_AirPlay,//XCUIElementTypeButton[@label='AirplayIconSmall'],xpath
+ios_ccicon,//XCUIElementTypeButton[@label='CCIconSmall'],xpath
+ios_FullScreen,//XCUIElementTypeButton[@label='FullscreenIconSmall'],xpath
+ios_Share,//XCUIElementTypeButton[@label='ShareIconSmall'],xpath
+ios_TvProvider,//XCUIElementTypeCell,xpath
+ios_Optimum_logo,"//XCUIElementTypeImage[contains(@label,'Optimum')]",xpath
+ios_TvProvider_StaticText,//XCUIElementTypeStaticText,xpath
+ios_Optimum_id,//XCUIElementTypeTextField,xpath
+ios_Optimum_pw,//XCUIElementTypeSecureTextField,xpath
+ios_SignIn_btn,//XCUIElementTypeLink[@label='Forgot ID?']/parent::XCUIElementTypeOther/XCUIElementTypeImage,xpath
+TV_Provider_Msg,//XCUIElementTypeStaticText[@label='TV Provider Linked!'],xpath
+plusPeacock,//XCUIElementTypeImage[@name='plusPeacock'],xpath
+Sign_up_Nbc_Static_text,//XCUIElementTypeStaticText,xpath
+Yes_btn,//XCUIElementTypeButton[@label='YES'],xpath
+Close_btn,//XCUIElementTypeButton[@label='closeSm'],xpath
+Skip_btn,//XCUIElementTypeButton[@label='SKIP'],xpath
+Video_Title_Lanscape,//XCUIElementTypeStaticText[@name='Player-Header-Label-VideoTitle'],xpath
+android_ShowsList,//android.widget.TextView[@resource-id='com.nbc.nbcapp:id/show_title'],xpath
+ios_parental_rating,//XCUIElementTypeOther[@name='Player-Video-View-PlayerContainer']//XCUIElementTypeImage,xpath
+ios_userid,//XCUIElementTypeTextField,xpath
+ios_password,//XCUIElementTypeSecureTextField,xpath
+ios_checkbtn,//XCUIElementTypeButton[@label='BoxUnChecked'],xpath
+Done_btn,//XCUIElementTypeButton[@label='Done'],xpath
+ios_signupbtn,//XCUIElementTypeButton[@label='SIGN UP'],xpath
+ios_StartWatchin_btn,//XCUIElementTypeButton[@label='START WATCHING'],xpath
+ios_Unlink TV Provider,//XCUIElementTypeStaticText[@label='Unlink TV Provider'],xpath
+ios_TvProviderImage,//XCUIElementTypeButton[@name='SettingMVPDCellButton']/XCUIElementTypeImage,xpath
+ios_signupbtn,//XCUIElementTypeButton[@label='SIGN UP'],xpath
+ios_SignIn,//XCUIElementTypeButton[@label='SIGN IN'],xpath
+ios_UserName,//XCUIElementTypeTextField,xpath
+ios_Pw,//XCUIElementTypeSecureTextField,xpath
+ios_ShowPw,//XCUIElementTypeButton[@name='Show Password'],xpath
+ios_Hidepw,//XCUIElementTypeButton[@name='Hide Password'],xpath
+ios_Sign_In,//XCUIElementTypeButton[@label='SIGN IN'],xpath
+Android_Home,//android.widget.TextView[@text='HOME'],xpath
+ProgressBar,//android.widget.ProgressBar,xpath
+android_ShowsList,//android.widget.TextView[@resource-id='com.nbc.nbcapp:id/show_title'],xpath
+ios_ThrowBackTab,//XCUIElementTypeButton[@name='THROWBACK'],xpath
+ios_AllTab,//XCUIElementTypeButton[@name='ALL'],xpath
+ios_CurrentTab,//XCUIElementTypeButton[@name='CURRENT'],xpath
+ios_ShowTiles,"//XCUIElementTypeCell[contains(@name,'ShowListing-CollectionViewCell-ShowThumbnail')]",xpath

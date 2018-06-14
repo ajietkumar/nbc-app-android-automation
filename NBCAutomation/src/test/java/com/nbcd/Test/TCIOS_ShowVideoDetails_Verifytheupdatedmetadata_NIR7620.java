@@ -1,0 +1,38 @@
+package com.nbcd.Test;
+
+import java.io.IOException;
+import com.nbcd.GenericLib.GetWebDriverInstance;
+import org.openqa.selenium.WebDriver;
+import org.testng.annotations.Parameters;
+import org.testng.annotations.Test;
+
+import com.codoid.products.exception.FilloException;
+import com.nbcd.GenericLib.Extent_Reports;
+
+
+import com.nbcd.Pages.PGAllCategoriesShows;
+import com.nbcd.Pages.PGAppShowVideoDetails;
+
+import io.appium.java_client.android.AndroidDriver;
+
+public class TCIOS_ShowVideoDetails_Verifytheupdatedmetadata_NIR7620 extends GetWebDriverInstance 
+{
+
+	
+	
+	@Test(groups="TCAllCategoriesShows")
+	
+	 public void iOS_Verifytheupdatedmetadata_NIR7620() throws Exception 
+	 {
+
+		//PGAppHomePage objHP = new PGAppHomePage(androidDriver);
+		PGAppShowVideoDetails objHP = new PGAppShowVideoDetails(driver);
+		
+		
+		//objHP.android_apptest();
+		objHP.iOS_Verifytheupdatedmetadata_NIR7620();
+		
+		
+		
+	 }
+} 

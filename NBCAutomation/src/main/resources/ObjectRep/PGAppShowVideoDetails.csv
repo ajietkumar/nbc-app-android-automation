@@ -1,0 +1,70 @@
+ObjectName,ObjectProperties,SearchType
+AppsLink,ul.navigation__list > li:nth-child(7),cssselector
+ProgressBar,//android.widget.ProgressBar,xpath
+nbc_Global_CastButton,"//android.view.View[contains(@resource-id,'media_route_button')]",xpath
+nbc_CastPopUp,"//android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'title')]",xpath
+nbc_HamburgerMenuIcon,"//android.widget.FrameLayout//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+nbc_ShowsMenu,//android.widget.ListView//android.widget.TextView[@text='SHOWS'],xpath
+nbc_APBioShow,//android.widget.TextView[@text='A.P. Bio'],xpath
+nbc_EpisodeVideo,"//android.support.v7.widget.RecyclerView[contains(@resource-id,'showDetailListItemRecyclerView')]/android.widget.FrameLayout[@index='1']",xpath
+Ad,"//android.widget.TextView[contains(@text,'PLAYING AD')]",xpath
+ContinueWatching,"//*[contains(@text,'Continue Watching')]",xpath
+ios_showsbtn,//XCUIElementTypeButton[@name='ShowsButton'],xpath
+ios_APBioShow,//XCUIElementTypeStaticText[@name='A.P. Bio'],xpath
+ios_EpisodeVideo,//XCUIElementTypeStaticText[@name='S1 E9 | 04/05/2018'],xpath
+ios_VideoPlayArea,//XCUIElementTypeOther[@name='Player-Video-View-PlayerContainer'],xpath
+ios_closevideo,//XCUIElementTypeButton[@name='Player-Header-Button-Close'],xpath
+ios_ContinueWatching,"//*[contains(@text,'Continue Watching')]",xpath
+Allow,//XCUIElementTypeButton[@name='Allow'],xpath
+CastOk,//XCUIElementTypeButton[@name='OK'],xpath
+ios_EpiSodesText,//XCUIElementTypeStaticText[@name='Episodes'],xpath
+ios_othertype,//XCUIElementTypeOther,xpath
+ios_ok,//*[@name='OK'],xpath
+ios_ShowFirstClip,//XCUIElementTypeCollectionView[@name='ShowDetailsEpisodesCollectionView']/XCUIElementTypeCell[2],xpath
+ios_PlayAreatext,//XCUIElementTypeStaticText,xpath
+ios_PlayPause,//XCUIElementTypeButton[@name='Player-Video-Button-PlayPause'],xpath
+ios_AcessShow,//XCUIElementTypeStaticText[@name='A.P. Bio'],xpath
+ios_hearticon,//XCUIElementTypeButton[@name='Carousel-ShowDetails-Button-FavoriteShow'],xpath
+ios_FirstVideo_metadata_list,"//XCUIElementTypeStaticText[contains(@label,'S1')]",xpath
+ios_Schedulebtn,//XCUIElementTypeButton[@name='ScheduleButton'],xpath
+ios_Favoritebtn,//XCUIElementTypeButton[@name='FavoritesButton'],xpath
+ios_Searchbtn,//XCUIElementTypeButton[@name='SearchButton'],xpath
+ios_Settingbtn,//XCUIElementTypeButton[@name='SettingsButton'],xpath
+ios_FavContinueSignUpPopClose,//XCUIElementTypeButton[@name='Button'],xpath
+ios_nbcicon,//XCUIElementTypeButton[@name='Navigation-View-Button-Settings'],xpath
+ios_Aceshow,"//XCUIElementTypeStaticText[contains(@name,'America')]",xpath
+ios_clipsSection,//XCUIElementTypeStaticText[@name='Clips'],xpath
+ios_clipsList,//XCUIElementTypeCollectionView[@name='ShowDetailsEpisodesCollectionView']/XCUIElementTypeCell[4]/XCUIElementTypeOther/XCUIElementTypeCollectionView//XCUIElementTypeStaticText,xpath
+ios_GlobalHomePage_FirstSectionText,//XCUIElementTypeImage,xpath
+ios_Justunlockedshowslist,//XCUIElementTypeStaticText[@label='Just Unlocked']/parent::XCUIElementTypeOther/XCUIElementTypeCollectionView//XCUIElementTypeStaticText,xpath
+ios_PlayAreatext,//XCUIElementTypeStaticText,xpath
+ios_closevideo,//XCUIElementTypeButton[@name='Player-Header-Button-Close'],xpath
+ios_continueWatchingVideosList,//XCUIElementTypeStaticText[@label='Continue Watching']/parent::XCUIElementTypeOther/XCUIElementTypeCollectionView//XCUIElementTypeStaticText,xpath
+ios_Favorite_continuewatchList,//XCUIElementTypeStaticText[@label='Continue Watching']/parent::XCUIElementTypeCell//XCUIElementTypeStaticText,xpath
+infobtn,//XCUIElementTypeButton[@label='InfoIconOutline'],xpath
+About_the_Show_Text,//XCUIElementTypeStaticText[@name='About the Show'],xpath
+About_the_Show_content,//XCUIElementTypeApplication[@name='NBC Enterprise']/XCUIElementTypeWindow[1]/XCUIElementTypeOther[2]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextView,xpath
+X_icon,//XCUIElementTypeButton[@name='CloseIconSmall'],xpath
+peacockimg,//XCUIElementTypeButton[@label='Home Screen'],xpath
+ChicagoFireShow,//XCUIElementTypeStaticText[@name='Better Late Than Never'],xpath
+ShowsList,//XCUIElementTypeCollectionView[@name='ShowDetailsEpisodesCollectionView']/XCUIElementTypeCell,xpath
+ShowDetails_sectionList,//XCUIElementTypeCollectionView[@name='ShowDetailsEpisodesCollectionView']/XCUIElementTypeCell[2]/XCUIElementTypeOther,xpath
+Show_AuthKey,//XCUIElementTypeStaticText[@label='Episodes']/parent::XCUIElementTypeOther//XCUIElementTypeImage[@name='KeyIcon']/preceding-sibling::XCUIElementTypeImage,xpath
+Show_Episded_list,//XCUIElementTypeStaticText[@label='Episodes']/parent::XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell,xpath
+ShowDetails_Section,//XCUIElementTypeCollectionView[@name='ShowDetailsEpisodesCollectionView']/XCUIElementTypeCell,xpath
+WatcNBCProfile,//XCUIElementTypeStaticText[@name='Watch now with an NBC Profile'],xpath
+ContinueBtn,//XCUIElementTypeButton[@name='CONTINUE'],xpath
+LinkProviderButton,//XCUIElementTypeButton[@label='LINK PROVIDER'],xpath
+ios_ListEpisodes,//XCUIElementTypeStaticText[@label='Episodes']/parent::XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell/XCUIElementTypeOther/XCUIElementTypeImage,xpath
+ios_StatictextList,//XCUIElementTypeStaticText,xpath
+Signupbutton,//XCUIElementTypeButton[@label='SIGN UP WITH FACEBOOK'],xpath
+ios_showdetails_image,//XCUIElementTypeOther[@name='NavigationChildContainerView']/XCUIElementTypeOther//XCUIElementTypeImage,xpath
+ios_parental_rating,//XCUIElementTypeOther[@name='Player-Video-View-PlayerContainer']//XCUIElementTypeImage,xpath
+ios_CurrentShowNameLis,//XCUIElementTypeCollectionView[@name='ShowListingThumbnailCollectionView']//XCUIElementTypeStaticText,xpath
+ios_ShowsFrameList,//XCUIElementTypeCollectionView[@name='ShowListingThumbnailCollectionView']//XCUIElementTypeCell,xpath
+ios_ShowDetails_SeasonNumberList,//XCUIElementTypeStaticText[@name='Season']/parent::XCUIElementTypeOther//XCUIElementTypeCollectionView//XCUIElementTypeStaticText,xpath
+ios_NoClipsEpisedforSeason,"//XCUIElementTypeStaticText[@name='Episodes are currently unavailable. In the meantime, favorite this show to stay up to date.']",xpath
+ios_ThrowBackTab,//XCUIElementTypeButton[@name='THROWBACK'],xpath
+ios_AllTab,//XCUIElementTypeButton[@name='ALL'],xpath
+ios_ShowFirsSection_TextList,//XCUIElementTypeCollectionView[@name='ShowDetailsEpisodesCollectionView']/XCUIElementTypeCell[2]/XCUIElementTypeOther//XCUIElementTypeStaticText,xpath
+ios_Show_Episode_Section_TextList,//XCUIElementTypeStaticText[@label='Episodes']/parent::XCUIElementTypeOther/XCUIElementTypeCollectionView/XCUIElementTypeCell//XCUIElementTypeStaticText,xpath

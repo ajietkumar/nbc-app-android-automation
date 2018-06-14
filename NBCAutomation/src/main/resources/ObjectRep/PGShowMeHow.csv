@@ -1,0 +1,21 @@
+ObjectName,ObjectProperties,SearchType
+AppsLink,ul.navigation__list > li:nth-child(7),cssselector
+ProgressBar,//android.widget.ProgressBar,xpath
+nbc_Global_CastButton,"//android.view.View[contains(@resource-id,'media_route_button')]",xpath
+nbc_CastPopUp,"//android.widget.FrameLayout/android.widget.TextView[contains(@resource-id,'title')]",xpath
+nbc_HamburgerMenuIcon,"//android.widget.FrameLayout//android.widget.ImageView[contains(@resource-id,'app_logo')]",xpath
+nbc_SettingsMenu,//android.widget.ListView//android.widget.TextView[@text='SETTINGS'],xpath
+LinkTvProvider,//android.widget.TextView[@text='LINK YOUR TV PROVIDER'],xpath
+SelectTv_Provider,//android.widget.TextView[@text='Select your TV Provider'],xpath
+ShowMeHow,//android.widget.TextView[@text='SHOW ME HOW'],xpath
+HowToLink,//android.widget.TextView[@text='How to Link'],xpath
+SelectTv_Provider,//android.widget.TextView[@text='1. SELECT PROVIDER'],xpath
+Link,//android.widget.TextView[@text='2. LINK'],xpath
+StartWatching,//android.widget.TextView[@text='3. START WATCHING'],xpath
+nbc_LiveMenu,//android.widget.ListView//android.widget.TextView[@text='LIVE'],xpath
+Entitled Vod,//android.widget.TextView[@text='Law & Order: SVU'],xpath
+ContinueButton,//android.widget.Button[@text='Continue'],xpath
+nbc_ShowsMenu,//android.widget.ListView//android.widget.TextView[@text='SHOWS'],xpath
+American_Ninja Show,//android.widget.TextView[@text='American Ninja Warrior'],xpath
+Entitled Vod_Smart tile,"//android.widget.FrameLayout[@resource-id,'com.nbc.nbcapp:id/include_show_detail_episode_layout')]",xpath
+Continue Button on ForkScreen,"//android.widget.Button[@resource-id,'com.nbc.nbcapp:id/button5']",xpath

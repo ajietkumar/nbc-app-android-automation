@@ -1,0 +1,5 @@
+ObjectName,ObjectProperties,SearchType
+ios_Schedule_icon,//XCUIElementTypeButton[@label='Schedule'],xpath
+ios_ScheduleHeader,//XCUIElementTypeStaticText[@label='SCHEDULE'],xpath
+ios_Schedule_DateList,//XCUIElementTypeImage[@name='Schedule-Image-DaytimeBackground']/parent::XCUIElementTypeOther//XCUIElementTypeCollectionView/XCUIElementTypeCell,xpath
+ios_ProgramSchdule_list,//XCUIElementTypeCell[@name='Schedule-TableViewCell-ScheduleCell' and  @visible='true'],xpath

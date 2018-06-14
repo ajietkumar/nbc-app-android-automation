@@ -1,0 +1,24 @@
+{
+  "server": "hub.browserstack.com",
+  "user": "kumar470",
+  "key": "7ePqJ45nFEyzLiqqCyad",
+
+  "capabilities": {
+    "build": "testng-browserstack",
+    "name": "NBCDOTCOMAutomation",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "chrome": {
+      "browser": "chrome"
+    },
+    "firefox": {
+      "browser": "firefox"
+    },
+  
+    "ie": {
+      "browser": "internet explorer"
+    }
+  }
+}

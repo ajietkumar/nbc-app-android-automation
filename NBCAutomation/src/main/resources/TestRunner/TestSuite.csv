@@ -1,0 +1,77 @@
+TestName,TestClass,Execution,ExecutionType,Browser,BrowserVersion,OS,OSVersion
+AppTest,com.nbcd.Test.TCAndroid_HomePage_Verifytheupdatedmetadata_NAF3544,No,BS_MOBILE_APP,TRUE,No,Samsung Galaxy S7,6
+AppTest,com.nbcd.Test.TCAndroid_Settings_NAF_345,No,BS_MOBILE_APP,TRUE,No,Samsung Galaxy S7,6
+AppTest,com.nbcd.Test.TCAndroid_Settings_TVproviderAuthentication_NAF_3546,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCIOS_HomePage_ContinueWatch,No,BS_MOBILE_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_Vod_Verifytogglereflectaction_NIR7655,No,BS_MOBILE_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCAndroid_ShowHomePage_android_VerifySeasonShelfinShowHomepage_NAF_3741,No,BS_MOBILE_APP,TRUE,No,Samsung Galaxy S8 Plus,7
+AppTest,com.nbcd.Test.TCAndroid_ShowHomePage_VerifyAboutinShowHomePage_NAF_3358,No,PHYSICAL_APP,TRUE,No,4d0076a54be3316f,6.0.1
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_Verifytheupdatedmetadata_NIR7620,No,PHYSICAL_APP,TRUE,No,iPhone 7,7
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_VerifyupdatedmetadataClipShowdetailpage_NIR7616,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCAndroid_ShowHomePage_VerifyPromptOnFavoritingShow_NAF_4646,No,PHYSICAL_APP,TRUE,No,LGH630Dc1a1d868,5
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_Verifytheupdatedmetadata_NIR7619,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_Verifymodalcloses_NIR7231,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCAndroid_Shows_VerifyAllShowCategories_NAF_114,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_VerifyKeyIcon_NIR6499,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_SearchDetails_SearchForEpisode_NIR9250,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_SearchDetails_SearchForClip_NIR9251,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCAndroid_VerifyHowCanWeHelp_NAF_4728,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCIOS_MVPDPicker_Portrait_NIR7658,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_VerifytapsFullScreenbuttonPortrait_NIR7208,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_Verify_MVPD_fromshowpage_NIR8685,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_MVPDPicker_Landscape,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_MVPDPicker,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_ShowDetails_Verify_keyartShowdetail_Portrait_NIR7201,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_ShowDetails_Verify_Tapsonshowthumbnail_NIR7199,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_Verify_Videotitleheader_videoplayer_Landscape_NIR7313,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_VerifyPrental_rating_NIR7226,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_FavoritesPage_NIR7667,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCAndroid_Vod_ContinueWatch_NAF_2590,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Vod_VerifyFrwdBackwrdOnVodPlayer_NAF_3531,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCIOS_SettingPage_FAQContent_NIR7332,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_FavoritesPage_WatchMoreVideos_NIR7322,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_VerifytotalshowscountCurrenttab_NIR7523,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_ShowDetails_Verifytogglereflectwhenplaypausepressed_Portrait_NIR7484,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_Verifyepisodesorclipsarentavailable_selectedseason_Portrait_NIR7652,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_Schedule_DayScroll_NIR7670,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_FavoritesPage_CTA_is_displayed_NIR8298,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_FavoritesPage_CTA_is_displayed_NIR8299_Continue,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_SettingPage_Verify_fields_Sign_In_with_Email_NIR7909,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCAndroid_Vod_VerifyGotoShowPageHyperlinkOnVodPlayer_NAF_3380,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAppHomePage_android_Verifytheupdatedmetadata_NAF3544,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_iOS_VerifySmarttileAirOrder1_NIR7991,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_iOS_VerifySmarttileAirOrder1not_NIR7990,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_iOS_Verifytimetakentoviewshow_NIR7664,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCAndroid_Settings_Verify_NBCProfile_NAF_4683,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCIOS_SettingPage_MVPDPicker_LandScape_NIR7656,No,PHYSICAL_APP,LANDSCAPE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_SettingPage_VerifytheUpdatetoSignUpPage_NIR8831,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_ShowVideoDetails_Verifythedisplayvideotitle_NIR7312,No,PHYSICAL_APP,TRUE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCIOS_SettingPage_FullistMVPDlogosdisplayed_landscape_NIR7657,No,PHYSICAL_APP,LANDSCAPE,No,iPhone 7,10.3
+AppTest,com.nbcd.Test.TCAndroid_Vod_VerifyNolivebasedonlocation_NAF3550,No,PHYSICAL_APP,TRUE,No,420016769b3c9400,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Verify_Authentication_Live_Stream_NAF_3536,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Identity_Verify_NBCSigninFails_NAF_4802,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Vod_OverlayFades_NAF7108,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Vod_AdElementsInPalyer_NAF3558,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_vod_MoreEpisodesTray_TABLETONLY_NAF3533,No,BS_MOBILE_APP,TRUE,No,Samsung Galaxy Tab 4,4.4
+AppTest,com.nbcd.Test.TCAndroid_Schedule_Verify_Schedule_NAF_3542,No,PHYSICAL_APP,TRUE,No,420016769b3c9400,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Search_VerifySearch_NAF_3540,No,PHYSICAL_APP,TRUE,No,420016769b3c9400,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_HomePage_Verify_Episode_Metadata_NAF_3366,No,PHYSICAL_APP,TRUE,No,420016769b3c9400,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Identity_Verify_NBC_Profile_Signup_Facebook_NAF_4684,No,PHYSICAL_APP,TRUE,No,420016769b3c9400,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Search_VerifySearch_Index_NAF_5968,No,PHYSICAL_APP,TRUE,No,420016769b3c9400,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Identity_Verify_SignIn_Email_Screen_NAF_4602,No,PHYSICAL_APP,TRUE,No,420016769b3c9400,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Identity_Verify_LinkTvProviderbridgeScreen_NAF_4542,No,PHYSICAL_APP,TRUE,No,420016769b3c9400,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Shows_Verify_Category_Labels_across_AllShows_NAF_3354,No,PHYSICAL_APP,TRUE,No,420016769b3c9400,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_ShowHomePage_VerifyClipsmetadatainShowHomepage_NAF_3364,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_ShowHomePage_VerifyshowsmetadataFeatured_NAF3373,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_ShowHomePage_VerifyShowArtinforinShowHomepage_NAF3360,No,PHYSICAL_APP,TRUE,No,LGH630Dc1a1d868,5
+AppTest,com.nbcd.Test.TCAndroid_ShowHomePage_VerifyDynamicleadslidecarouselsCTAdestinations_NAF3377,No,PHYSICAL_APP,TRUE,No,LGH630Dc1a1d868,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Endcard_Verify_Episode_WithFavorites_NAF_3563,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Endcard_Verify_Timings_Clips_NAF_3562,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Endcard_Verify_Timings_NoFavorites_Episodes_NAF_3564,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Identity_Verify_Email_SignInPage_NAF_4588,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Identity_Verify_NBCSigninFails_NAF_4802,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Vod_VerifylistofshowsmetadataEpisodecollectionshelf_NAF3374,No,PHYSICAL_APP,TRUE,No,LGH630Dc1a1d868,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Video_Player_launching_Entitled_Free_Vod_NAF_3728,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Vod_resume_functionality_NAF_3548,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_Vod_Error_messages_Live_VOD_NAF_3554,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1
+AppTest,com.nbcd.Test.TCAndroid_GotoShowPage_VerifyClipsortorderShowhomepage_NAF3357,No,PHYSICAL_APP,TRUE,No,08f6d19b251c9c8f,6.0.1

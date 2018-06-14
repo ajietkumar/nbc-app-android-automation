@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="371534" started-at="2018-06-12T12:56:52Z" finished-at="2018-06-12T13:03:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="371534" started-at="2018-06-12T12:56:52Z" finished-at="2018-06-12T13:03:03Z">
+      <class name="com.nbcd.TestRunner.TestRunner">
+        <test-method status="PASS" signature="tRun()[pri:0, instance:com.nbcd.TestRunner.TestRunner@359f7cdf]" name="tRun" duration-ms="371508" started-at="2018-06-12T18:26:52Z" finished-at="2018-06-12T18:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tRun -->
+      </class> <!-- com.nbcd.TestRunner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
